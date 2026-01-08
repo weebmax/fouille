@@ -122,8 +122,13 @@ def predict(self, text: str) -> dict[str,str]:
 
 ### Prérequis
 
-1. Installer Ollama : https://ollama.com/
-2. Télécharger le modèle : `ollama pull gemma3:1b`
+1. Installer les dépendances Python :
+
+```bash
+pip install ollama jinja2
+```
+
+2. Installer Ollama : https://ollama.com/2. Télécharger le modèle : `ollama pull gemma3:1b`
 3. S'assurer qu'Ollama tourne en arrière-plan
 
 ### Exécution
